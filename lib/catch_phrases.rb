@@ -13,8 +13,14 @@ def link
   puts status
 end
 
-def any_phrase
-  phrase = "#{any_phrase} takes in an argument and puts out the catch phrase"
+
+#def any_phrase(phrase)
+#  puts phrase
+#end
+#any_phrase("Do A Barrel Roll!")
+
+
+def any_phrase (phrase)
+  phrase = "Do A Barrel Roll!"
   puts phrase
-  return "Do A Barrel Roll!"
 end
